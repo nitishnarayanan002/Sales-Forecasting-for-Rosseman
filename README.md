@@ -161,4 +161,42 @@ XGBoost is retained as a **high-performing benchmark**.
 ---
 
 ## 📁 Project Structure
+├── data/
+│ ├── train.csv
+│ ├── store.csv
+├── notebooks/
+│ └── Rossmann_Sales_Forecasting.ipynb
+├── README.md
+
+
+---
+
+## 🚀 Key Takeaways
+
+- Customer footfall is the strongest driver of sales
+- Promotions provide consistent short-term uplift
+- Retail sales forecasting benefits from combining:
+  - Time-series models (SARIMAX)
+  - Machine-learning models (XGBoost)
+- Model selection should balance **accuracy + interpretability**
+
+---
+
+## 📌 Future Enhancements
+
+- Incorporate holiday calendars explicitly
+- Extend to multi-store hierarchical forecasting
+- Add probabilistic forecasts (confidence intervals)
+- Deploy as an automated forecasting pipeline
+
+---
+
+## 👤 Author
+
+**Nitish Narayanan**  
+Solution Engineering Chapter Lead @Infobip | AI & Data Science Enthusiast  
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
 
